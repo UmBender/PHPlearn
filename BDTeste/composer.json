@@ -1,0 +1,20 @@
+{
+    "name": "bender/bd-teste",
+    "description": "A simple teste with db",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Bender\\BdTeste\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Bender",
+            "email": "gustavo.benderr@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "^6.3",
+        "guzzlehttp/guzzle": "^7.7"
+    }
+}
